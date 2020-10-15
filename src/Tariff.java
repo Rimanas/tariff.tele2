@@ -1,4 +1,5 @@
 public class Tariff {
+    String id;
     String name;
     int minutes;
     boolean unlimitedMinutes;
@@ -21,4 +22,8 @@ public class Tariff {
     boolean unlimitedAmediateka;
     int price;
     boolean bestseller;
+    String imageVkUrl;
+    String imageOkUrl;
+    String imageInstUrl;
+    String imageFacebookUrl;
 }
